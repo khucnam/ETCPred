@@ -10,6 +10,8 @@ Dataset.rar
 
 Models.rar
 
+fastText embedding vectors.rar
+
 Predict.py
 
 
