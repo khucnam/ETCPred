@@ -21,9 +21,7 @@ INSTRUCTION:
 
 git clone https://github.com/khucnam/ETCPred
 
-2. Extract all files with rar extenstion in "YOUR FOLDER" folder
-
-3. python Predict.py your_fasta_file.fasta
+2. python Predict.py your_fasta_file.fasta
 
 (your_fasta_file.fasta file contains the sequences you want to classify)
 
