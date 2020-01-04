@@ -1,6 +1,6 @@
 Thanks for your interest in our research!
 
-We provides the data used in this paper in two format: fasta format and PSSM format.
+We provides the data used in this paper in fasta format.
 In both Train and Test parts, there are 5 folders corresponding to 5 electron complexes.
 All these proteins were from Le et al.'s [1] dataset after being check for similarity with threshold of 30%.
 
