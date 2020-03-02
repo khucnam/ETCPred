@@ -23,8 +23,8 @@ git clone https://github.com/khucnam/ETCPred
 
 2. python Predict.py your_fasta_file.fasta
 
-(your_fasta_file.fasta file contains the sequences you want to classify)
+("your_fasta_file.fasta" file contains the sequences you want to classify. Please see the "sample.fasta" as an example.)
 
-Running the Predict.py script will generate the Result.csv file. In Result.csv file, there are 6 columms: first one contains the protein ID, second sixth ones contains 5 different probabilities corresponding to each of the 5 complexes.  
+Running the Predict.py script will generate the Result.csv file. In Result.csv file, there are 6 columms: first one contains the protein ID, the next five columns contain 5 different probabilities corresponding to each of the 5 complexes.  
 
 
