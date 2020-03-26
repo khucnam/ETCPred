@@ -5,6 +5,16 @@ This is the public site for the paper under submission named: "Using NLP approac
 Every cell uses cellular respiration machinery to oxidize food molecules such as glucose (sugars) to carbon dioxide and water, thus obtaining energy-carrying molecules in the form of adenosine triphosphate. This crucial process cannot occur without the aid of electron transport chains, a series of 5 protein complexes embedded in the inner mitochondrial membrane. A variety of human diseases such as Parkinson's disease, pulmonary hypertension, and Alzheimer's disease involve the functional loss of these protein complexes. Thus, investigating these electron complexes is an ongoing concern for biologists to better understand the molecular mechanisms of important human diseases. In this research, we employed two representation learning methods namely word embedding and transfer learning to analyse electron complex sequences and create efficient feature sets before using support vector machine algorithm to classify them. On an average, our final classification models achieved performance of 96%, 96.1%, 95.3%, and 0.86, respectively on cross-validation data. For the independent test data, those corresponding performance scores are 95.3%, 92.6%, 94%, and 0.87. Using representation learning methods, we show that simple machine learning method is on par with existing deep neural network method on the task of categorizing electron complexes while enjoying much faster way for feature generation. 
 
 
+
+LIBRARY REQUIREMENTS
+	We will need to install some basic packages to run the programs as followed:
+		git version 2.15.1.windows.2
+		python 3.6.5
+		numpy 1.14.3
+		pandas 0.23.0
+		sklearn 0.20.2
+		
+		
 INSTRUCTION:
 
 Using git bash to clone all the required files in "YOUR FOLDER" folder

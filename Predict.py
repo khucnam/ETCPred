@@ -114,12 +114,13 @@ def run(svm_input_file, model_file):
     y_pred = classifier.predict_proba(X_test)
     return y_pred[0][1] #all the second values
 
-
+if not(os.path.exists("tmp")):
+	os.mkdir("tmp")
 inputFile= sys.argv[1]
 outputFile="Result.csv" #w: allow overwrite
-print("input file ",inputFile)
+print("input file: ",inputFile)
 #ngram3
-fasttext_input_sequence_dic=fastaToNgram("your_fasta_file.fasta",3)
+fasttext_input_sequence_dic=fastaToNgram(inputFile,3)
 f=open(outputFile,"w")
 f.write("ProteinID,ComplexI,ComplexII,ComplexIII,ComplexIV,ComplexV\n")
 answerDict={}
@@ -141,6 +142,8 @@ for filename in os.listdir("tmp"):
     os.remove("tmp//"+filename)
     
 f.close()
+
+print("Thank you for using ETCPred!!! Please check the prediction results in Result.csv file")
 
 
 
